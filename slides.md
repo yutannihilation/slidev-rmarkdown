@@ -21,14 +21,15 @@ info: |
 
   Learn more at [Sli.dev](https://sli.dev)
 
-download: true
+# TODO: PDFをダウンロードできるようにする
+# download: true
 ---
 
 # R Markdown
 
 ------------------------------------------------------------------------
 
-## Code
+# Code
 
 This is an R Markdown document. Markdown is a simple formatting syntax
 for authoring HTML, PDF, and MS Word documents. For more details on
@@ -52,11 +53,11 @@ summary(cars)
 
 ------------------------------------------------------------------------
 
-## Including Plots
+# Including Plots
 
 You can also embed plots, for example:
 
-![](slides_files/figure-markdown_github/pressure-1.png)
+![](/slides_files/figure-markdown_github/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.

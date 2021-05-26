@@ -21,11 +21,15 @@ info: |
 
   Learn more at [Sli.dev](https://sli.dev)
 
-download: true
+# TODO: PDFをダウンロードできるようにする
+# download: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+# これを指定しないとnpm run buildでimageのパスが解決できなくて失敗する
+knitr::opts_knit$set(base.url = "/")
 ```
 
 # R Markdown
