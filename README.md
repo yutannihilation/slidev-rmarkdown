@@ -1,11 +1,18 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# A test repo to use [Slidev](https://github.com/slidevjs/slidev) with R Markdown
 
-To start the slide show:
+## Slidev?
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+See [the official documentations](https://sli.dev/).
+
+## Development
+
+1. Render `slides.Rmd` to `slides.md`
+2. Run `npm run dev` to see the preview on <http://localhost:3030>
 
 Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+## Deployment
+
+1. Run `npm run build`
+2. Commit the content of `/dist`
+3. Push to main
