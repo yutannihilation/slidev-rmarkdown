@@ -7,9 +7,7 @@ output:
 
 # try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://raw.githubusercontent.com/yutannihilation/wgpu-practice/4ffc4ff4cba80ac4bfefbba5972985f51c5254a3/sphere/out.gif
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
