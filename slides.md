@@ -65,7 +65,7 @@ prevent printing of the R code that generated the plot.
 -->
 ---
 layout: image-right
-image: https://raw.githubusercontent.com/yutannihilation/slidev-rmarkdown/main/images/image.png
+image: images/image.png
 ---
 
 # image-right layout
