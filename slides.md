@@ -5,11 +5,14 @@ output:
     variant: "markdown_github"
     preserve_yaml: true
 
-# try also 'default' to start simple
 theme: seriph
-background: https://raw.githubusercontent.com/yutannihilation/wgpu-practice/4ffc4ff4cba80ac4bfefbba5972985f51c5254a3/sphere/out.gif
+
+# Image files in public/ will be served at root path /
+background: ./images/top.gif
+
 # apply any windi css classes to the current slide
 class: 'text-center'
+
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # some information about the slides, markdown enabled
@@ -65,7 +68,7 @@ prevent printing of the R code that generated the plot.
 -->
 ---
 layout: image-right
-image: images/image.png
+image: './images/image.png'
 ---
 
 # image-right layout
