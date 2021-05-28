@@ -1,5 +1,5 @@
 ---
-title: test
+title: R Markdown to Slidev
 output:
   md_document:
     variant: "markdown_github"
@@ -14,12 +14,9 @@ class: 'text-center'
 highlighter: shiki
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Use Slidev with R Markdown
 
-  Learn more at [Sli.dev](https://sli.dev)
-
-# TODO: PDFをダウンロードできるようにする
+# # Uncomment this when we want to distribute PDF as well
 # download: true
 ---
 
@@ -59,3 +56,22 @@ You can also embed plots, for example:
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+<!-- 
+  We can specify per-slide options with YAML front-matters.
+  This needs to be wrapped with a block of raw attribute.
+-->
+---
+layout: image-right
+image: /images/image.png
+---
+
+# image-right layout
+
+-   This is my twitter icon
+
+------------------------------------------------------------------------
+
+# Embed YouTube
+
+<Youtube id="OHS_rmkmPpM" width=600 height=450 />
