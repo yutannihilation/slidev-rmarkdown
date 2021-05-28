@@ -15,6 +15,8 @@ highlighter: shiki
 # some information about the slides, markdown enabled
 info: |
   ## Use Slidev with R Markdown
+  
+  Source code can be found on <https://github.com/yutannihilation/slidev-rmarkdown>.
 
 # # Uncomment this when we want to distribute PDF as well
 # download: true
@@ -63,7 +65,7 @@ prevent printing of the R code that generated the plot.
 -->
 ---
 layout: image-right
-image: /images/image.png
+image: https://raw.githubusercontent.com/yutannihilation/slidev-rmarkdown/main/images/image.png
 ---
 
 # image-right layout
@@ -74,4 +76,4 @@ image: /images/image.png
 
 # Embed YouTube
 
-<Youtube id="OHS_rmkmPpM" width=600 height=450 />
+<Youtube id="OHS_rmkmPpM" width=600 height=400 />
